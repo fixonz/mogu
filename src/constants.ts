@@ -34,7 +34,7 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  */
 export const POOLS = [
   // Fake token:
-  lp(MOGE),
+  lp(FAKE_TOKEN_MINT),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
@@ -53,18 +53,18 @@ export const DEFAULT_POOL = POOLS[0]
 export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   {
     mint: FAKE_TOKEN_MINT,
-    name: 'MOGE',
-    symbol: 'MOGE',
-    image: '/coinimg.png',
+    name: 'MOGU',
+    symbol: 'MOGU',
+    image: '/coinimg.jpg',
     baseWager: 1e9,
     decimals: 9,
     usdPrice: 0,
   },
   {
     mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
-    name: 'MOGE',
-    symbol: 'MOGE',
-    image: '/coinimg.png',
+    name: 'W',
+    symbol: 'Wormhole',
+    image: 'https://wormhole.com/token.png',
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,
