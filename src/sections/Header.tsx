@@ -28,7 +28,7 @@ const StyledHeader = styled.div`
   justify-content: space-between;
   width: 100%;
   padding: 10px;
-  background: url('.images/img5.jpg') rgba(33, 34, 51, 0.9);
+  background: url('images/img5.jpg') rgba(33, 34, 51, 0.9);
   background-size: cover;
   position: fixed;
   backdrop-filter: blur(20px);
@@ -84,7 +84,7 @@ export default function Header() {
       <StyledHeader>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <Logo to="/">
-            <img alt="Custom Logo" src="imaages/img.jpg" />
+            <img alt="Custom Logo" src="images/img.jpg" />
           </Logo>
         </div>
         <div style={{ display: 'flex', gap: '10px', alignItems: 'center', position: 'relative' }}>

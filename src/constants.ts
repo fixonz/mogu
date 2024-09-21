@@ -55,7 +55,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     mint: FAKE_TOKEN_MINT,
     name: 'MOGU',
     symbol: 'MOGU',
-    image: '/coinimg.jpg',
+    image: 'coinimg.jpg',
     baseWager: 1e9,
     decimals: 9,
     usdPrice: 0,
